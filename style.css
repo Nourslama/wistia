@@ -1,0 +1,325 @@
+*{
+  margin:0
+
+}
+
+header{
+  
+  background-color:white;
+  display:flex;
+  justify-content:space-between;
+  height: 100px;
+}
+li{
+  list-style:none
+}
+.item1{
+
+  width: 500px;
+  display:flex;
+  justify-content:space-between;
+ align-items: flex-end;
+  padding: 20px; 
+}
+.btn{
+
+	width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px; 
+
+}
+#bbt{
+	padding: 12px 28px;
+	border-radius: 8px;
+	background-color: white;
+
+}
+#bbt:hover{
+
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#bbtt{
+padding: 4px 28px;
+border-radius: 8px;
+background-color: #0691F2;
+}
+#bbtt:hover
+{
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.dropdown{
+  border-top: 1px solid #B2B9C1; 
+  display:none;
+  position :absolute;
+  padding: 0%;
+/*margin-top:12px; */
+  left:-90px;
+  background-color: white;
+  width: 1500px;
+
+}
+
+.drop:hover .dropdown{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.drop{
+  position:relative
+ 
+  
+}
+#btn{
+
+	background-color: #0691F2;
+	font-size: 16px;
+    height: 40px;
+        padding-left: 16.5px;
+    padding-right: 16.5px;
+    margin-left: 150px;
+}
+.nav1{
+	 
+	width: 100%;
+	background-color: #CEA0AF;
+	height: 500PX;
+	display: flex;
+	justify-content: space-between;
+align-content: space-between;
+align-items: center;
+	
+	}
+	#nnav{
+		max-width: 20%;
+		padding: 5%;
+		
+
+	}
+		
+	#navi{
+		margin-bottom: 20%;
+	}
+	#btn1{
+		
+width: 200px;
+height:100px;
+border-radius: 8px;
+background-color: white;
+line-height:50px;
+text-align:center;
+font-weight: bold;
+
+	}
+	#conteneur
+{
+    display: flex;
+
+}
+.element1
+{
+	/*margin:auto;*/
+	width: 100%;
+	height:300px;
+	flex:1;
+	padding: 5%;
+	padding-top: 2%;
+	display: flex;
+	flex-direction: column-reverse;
+
+
+
+}
+.element1:nth-child(1){
+	 background-color: #FED24A;
+	  
+	  
+}
+.element1:nth-child(2)
+{
+	background-color: #51C29F;
+	
+}
+.element1:nth-child(3)
+{
+	background-color: rgb(62, 169, 245);
+	
+} 
+.boutton{
+	box-align: center;
+background-color:transparent;
+margin-left: 30%;
+cursor: pointer;
+ align-items: center;
+ height: 80px;
+    width: 160px;
+
+
+
+}
+
+.cont{
+	background: white;
+
+	height:300px;
+	padding: 5%;
+	padding-top: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.cont p{
+	color: #9CA8B7;
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 160px;
+}
+.image{
+
+    height: 150px;
+    width: 150px;
+
+}
+.elem{
+	background: white;
+flex-direction: column;
+	height:450px;
+	padding: 5%;
+	padding-top: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.blue{
+	background-color: rgba(255, 0, 0, 0.3);
+}
+.blue1:hover{
+	opacity: 0.5;
+ cursor: pointer;
+}
+.green{
+	background-color:rgba(35, 203, 167, 1);
+}
+.green1:hover{
+	opacity: 0.6;
+ cursor: pointer;
+}
+.red{
+	background-color:rgba(30, 139, 195, 1);
+}
+.red1:hover{
+	opacity: 0.6;
+ cursor: pointer;
+
+}
+
+.card-container{
+    max-width: 360px;
+   
+}
+.card-container h3{
+	margin-bottom: 5%; 
+}
+
+
+/*.card-container img :hover{
+
+opacity: 0.5;
+ cursor: pointer;
+
+}*/
+.elem3{
+	background-color: #EFEFEF;
+    padding: 25px 40px;
+    text-align: center;
+	height:43px;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	flex:1;		
+	
+}
+
+footer{
+background-color: #2a2d35;
+    padding: 25px 40px;
+    
+	height:400px;
+}
+.bordure 
+{
+margin-top: 5%;
+    width:1px;
+    border-left:1px solid #B2B9C1;
+     opacity: .1;
+    height:280px;
+}
+.foot{
+	max-width: 20%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+.foot ul {
+
+    margin: 0;
+    padding: 0;
+}
+.foot a {
+	text-decoration: none;
+}
+.foot li{
+	margin-top: 20%;
+}
+.foot h3 
+ {margin-top:10%;
+
+    }
+
+#mis{
+margin-top: 40%;
+}
+.foot1{
+	margin-top: 5%;
+	margin-right: 5%;
+	max-width: 20%;
+}
+footer p{
+	
+	color: #B2B9C1;
+    margin: 30px 60px;
+    text-align: center;
+}
+.foot li:hover{
+    font-weight: bold;
+
+}
+
+
+.boutton:hover~.svg-icon{
+	
+	fill: grey;
+	
+}
+.boutton:hover{
+	background-color: white;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+a
+{
+	text-decoration: none;
+}
